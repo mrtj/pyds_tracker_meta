@@ -43,7 +43,7 @@ def osd_sink_pad_buffer_probe(pad,info,u_data):
         print('user_meta:', user_meta)
         print('user_meta.user_meta_data:', user_meta.user_meta_data)
         print('user_meta.base_meta:', user_meta.base_meta)
-        if not pyds_tracker_meta.NvDsPastFrameObjBatch.user_meta_is_past_frame_obj_batch(user_meta):
+        if not pyds_tracker_meta.NvDsPastFrameObjBatch.is_in(user_meta):
             continue
         past_frame_object_batch = pyds_tracker_meta.NvDsPastFrameObjBatch.from_user_meta(user_meta)
         print('past_frame_object_batch:', past_frame_object_batch)

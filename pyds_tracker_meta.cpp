@@ -1,4 +1,3 @@
-#include <iostream>
 #include <pybind11/pybind11.h>
 #include <pybind11/stl.h>
 #include "nvds_tracker_meta.h"
@@ -31,7 +30,7 @@ PYBIND11_MODULE(pyds_tracker_meta, m) {
             "casts the data and returns it. Otherwise returns NULL.",
             py::return_value_policy::reference)
         .def_static(
-            "user_meta_is_pfob", 
+            "is_in", 
             [](NvDsUserMeta *user_meta) {
                 return (user_meta->base_meta.meta_type == NVDS_TRACKER_PAST_FRAME_META);
             }, 
