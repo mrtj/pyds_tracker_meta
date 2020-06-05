@@ -77,4 +77,4 @@ def osd_sink_pad_buffer_probe(pad,info,u_data):
 ```
 
 Written by [@jtolgyesi](http://twitter.com/jtolgyesi)<br/>
-Powered by [<img src="https://www.neosperience.com/wp-content/themes/neos/images/logo.png" alt="Neosperience" height="30"/>](https://www.neosperience.com)
+Powered by [<img src="https://www.neosperience.com/wp-content/themes/neos/images/logo.png" alt="Neosperience" height="20"/>](https://www.neosperience.com)
