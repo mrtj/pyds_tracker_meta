@@ -75,3 +75,6 @@ def osd_sink_pad_buffer_probe(pad,info,u_data):
         except StopIteration:
             break
 ```
+
+Written by [@jtolgyesi](http://twitter.com/jtolgyesi)<br/>
+Powered by [<img src="https://www.neosperience.com/wp-content/themes/neos/images/logo.png" alt="Neosperience" height="30"/>](https://www.neosperience.com)
