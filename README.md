@@ -32,7 +32,9 @@ Most likely you will use this library from the buffer probe callbacks of a gstre
 The example snippet provided bellow shows how to cast a user meta to a past frame object batch, and how to access all fields of the metadata. Add the following lines to the `osd_sink_pad_buffer_probe` method found int `deepstream-test2.py`, just after the [`batch_meta` was acquired](https://github.com/NVIDIA-AI-IOT/deepstream_python_apps/blob/2931f6b295b58aed15cb29074d13763c0f8d47be/apps/deepstream-test2/deepstream_test_2.py#L61):
 
 ```python
-def osd_sink_pad_buffer_probe(pad,info,u_data):
+import pyds_tracker_meta
+
+def osd_sink_pad_buffer_probe(pad, info, u_data):
     
     # ... code to acquire batch_meta ...
     
