@@ -19,7 +19,7 @@ Some trackers do not report the state of the tracked object if there are matchin
 1. The source should be compiled on your target platform (Jetson or x86).
 2. Set your DeepStream version and path in `build.sh`.
 3. Launch `build.sh`
-4. Copy the compiled library (eg. `pyds_tracker_meta.cpython-36m-aarch64-linux-gnu.so`) to your python `site-packages` folder, or alternatively to the folder where your python script will run.
+4. Install the compiled module with `python setup.py install` (use sudo or python3 if needed).
 
 ## Usage
 
