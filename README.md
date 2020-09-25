@@ -2,7 +2,7 @@
 
 [pybind11](https://github.com/pybind/pybind11) wrapper to access Nvidia [DeepStream](https://developer.nvidia.com/deepstream-sdk) tracker meta info (`NvDsPastFrame...` classes) from Python.
 
-> The `master` branch of this repository is compatible with DeepStream SDK 5.0. If you are using an earlier version of the SDK (including DeepStrem SDK 5.0 Developer Preview), check out the `DeepStream-4.0` branch.
+> The [`master`](//github.com/mrtj/pyds_tracker_meta/tree/master) branch of this repository is compatible with DeepStream SDK 5.0. If you are using an earlier version of the SDK (including DeepStrem SDK 5.0 Developer Preview), check out the [`deepstream-4.0`](//github.com/mrtj/pyds_tracker_meta/tree/deepstream-4.0) branch.
 
 ## Notes for DeepStreamer 5.0
 
